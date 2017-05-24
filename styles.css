@@ -2,10 +2,11 @@ body, html{
   height:100%;
 }
 
-body{
+body {
   margin: 0px;
-  background-color:#444;
+  /*background-image: url('https://img.clipartfest.com/31fc9a7c580a6f937caf469e5478d9d7_blue-background-scrub-masters-light-blue-background-clipart_4256-2832.jpeg');*/
   font-size: 18px;
+  background-color: lightpink;  
 }
 
 body, a:link, a:visited, a:active{
@@ -17,6 +18,23 @@ body, a:link, a:visited, a:active{
   float:right;
 }
 
+
+.title, .lineUp {
+  padding:5px 12px;
+  float:right;
+}
+
+
+.title, .changeBGColor{
+  padding:5px 12px;
+  float:right;
+}
+
+.title, .changeBGimage {
+  padding: 5px 12px; 
+  float: right;
+}
+
 .topbar{
   height:32px;
   background-color: #555;
@@ -26,14 +44,21 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 
-.dancer{
-  border:10px solid red;
-  border-radius:10px;
+
+.superHeroDancer{
   position:absolute;
 }
 
-.dancer2 {
-  border:10px solid blue;
-  border-radius:10px;
+.bouncyDancer {
   position:absolute;
+}
+
+.blinkyDancer {
+  position:absolute;
+}
+
+
+
+img {
+  width: 100px;
 }
